@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Exo&family=Raleway:wght@300&display=swap");
+
+/*
+Font Family 
+font-family: 'Abril Fatface', cursive;
+font-family: 'Exo', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: ease 0.4s all;
+  -webkit-transition: ease 0.4s all;
+  -moz-transition: ease 0.4s all;
+  -ms-transition: ease 0.4s all;
+  -o-transition: ease 0.4s all;
+}
+html {
+  /* overflow: hidden; */
+  background-image: linear-gradient(rgb(56, 51, 51), rgb(28, 28, 46));
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  min-height: 500px;
+}
+
+#app {
+  display: grid;
+  grid-auto-rows: minmax(140px, auto);
+  /* grid-template-columns:  */
+  min-height: 100vh;
+  color: #fffdf4;
+  justify-content: center;
+  grid-gap: 0.7em;
+  font-size: 20px;
+}
+
+.holder {
+  margin: auto;
+  text-align: center;
+  width: 1500px;
+  position: relative;
+}
+
+.entry {
+  min-height: 200px;
+  min-width: 300px;
+}
+#zip {
+  text-align: center;
+  margin: 15px auto;
+  background-color: #e0e0e0;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  box-shadow: inset 3px 2px 4px rgb(187, 187, 186);
+}
+#generate {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  cursor: pointer;
+}
+#entryHolder {
+  color: #e0e0e0;
+  font-family: "Raleway", sans-serif;
+  width: 500px;
+  padding: 10px;
+  background-color: #e0e0e0;
+  margin: auto;
+  min-height: 50px;
+  border-radius: 30px;
+  position: absolute;
+  top: 40px;
+  left: 500px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+#date {
+  color: #3b3b3b;
+  margin-top: 5px;
+  font-family: "Raleway", sans-serif;
+}
+
+#temp {
+  color: #992a2a;
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+#content {
+  color: #979797;
+  font-family: "Raleway", sans-serif;
+}
+#feel {
+  text-align: center;
+  margin: auto;
+  height: 100px;
+}
+.headline {
+  font-size: 55px;
+  font-family: "Abril Fatface", cursive;
+}
+.title {
+  font-size: 20px;
+  width: 300px;
+  margin: auto;
+  background-image: linear-gradient(
+    rgba(48, 48, 48, 0.233),
+    rgba(78, 78, 78, 0.219)
+  );
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label {
+  display: block;
+  font-size: 27px;
+  margin: 20px;
+}
+
+input {
+  display: block;
+  height: 50px;
+  width: 320px;
+  color: #242321;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+}
+
+button {
+  width: 300px;
+  height: 60px;
+  background: #e0e0e0;
+  color: #313131;
+  font-size: 26px;
+  border: none;
+  box-shadow: 2px 4px 5px #444;
+  border-radius: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+button:hover {
+  color: #e0e0e0;
+  background-color: #494949;
+  box-shadow: none;
+}
+h1 {
+  font-size: 36px;
+}
+
+textarea {
+  background: #e0e0e0;
+  color: #2b2b2b;
+  width: 800px;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder {
+  /* Firefox, Chrome, Opera */
+  padding: 10px;
+  color: #494949;
+  opacity: 0.3;
+  font-family: "Raleway", sans-serif;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  padding: 10px;
+  color: #494949;
+  opacity: 0.3;
+  font-family: "Raleway", sans-serif;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  padding: 10px;
+  color: #494949;
+  opacity: 0.3;
+  font-family: "Raleway", sans-serif;
+}
