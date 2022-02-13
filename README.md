@@ -27,6 +27,7 @@ An asynchronous web app that uses Web API and user data to dynamically update th
 * Cors - *Express middleware; for cross origin allowance*
 * Dotenv - *Loads environment variables from .env file*
 * Node-fetch - *A light-weight module that brings window.fetch to node.js*
+
 [(Back to top)](#table-of-contents)
 
 ### API Credentials
@@ -36,6 +37,7 @@ An asynchronous web app that uses Web API and user data to dynamically update th
 ```
 OPENWEATHER_APP_ID=your OpenWeather App ID
 ```
+
 [(Back to top)](#table-of-contents)
 
 ### Running the App & Installation Guide
@@ -60,20 +62,26 @@ OPENWEATHER_APP_ID=your OpenWeather App ID
 	npm run start
 	```
 * The server will start on `http://localhost:9000/` in your browser.
+
 [(Back to top)](#table-of-contents)
 
 ### Final Output
+![Output](https://github.com/limillions/UdacityFEND-Weather-Journal-Project/blob/master/ProjectSS.png)
+
+[(Back to top)](#table-of-contents)
 
 ### License
 [GNU General Public License version 3](https://opensource.org/licenses/GPL-3.0)
+
 [(Back to top)](#table-of-contents)
 
 ### Author
 
-* [Ahmed Kasem](https://github.com/limillions"Ahmed Kasem")
+[Ahmed Kasem](https://github.com/limillions)
 
 
 ### Footer
 
 Udacity Weather Journal App
+
 [(Back to top)](#table-of-contents)
