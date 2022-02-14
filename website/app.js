@@ -21,7 +21,7 @@ const finalTemp = document.getElementById("temp");
 const finalFeelings = document.getElementById("content");
 
 // Personal API Key for OpenWeatherMap API
-const apiKey = "&appid=b36940defbf43153a728eae736068df6";
+const apiKey = "&appid=b36940defbf43153a728eae736068df6&units=imperial";
 const url = `https://api.openweathermap.org/data/2.5/weather?zip=`;
 
 // Create a new date instance dynamically with JS
